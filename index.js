@@ -1,4 +1,7 @@
-var fs = require("fs"), exifParser = require('exif-parser'), gm = require('gm');
+var fs = require("fs"),
+	exifParser = require('exif-parser'),
+    gm = require('gm'),
+    async = require('async');
 
 function requiresRotating( original, callback ){
 	//get the exif data
