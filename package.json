@@ -1,6 +1,6 @@
 {
 	"name": "exif-image-auto-rotation",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Auto rotate uploaded images based on their exif data.",
 	"main": "index.js",
 	"scripts": {
